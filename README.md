@@ -12,9 +12,6 @@ Laboratorio enfocado al uso de cliente servidor y despliegue web
    * [maven]
 
    * [java]
-    
-  # - Pruebas
-    Para la realizacion de las pruebas , se utulizo los datos entregados por el profesor
  
  # Latex
    * [Latex]
