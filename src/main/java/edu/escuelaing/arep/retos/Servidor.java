@@ -129,8 +129,6 @@ public class Servidor {
         + System.getProperty("file.separator")
         + "main"
         + System.getProperty("file.separator")
-        + "java"
-        + System.getProperty("file.separator")
         + "resources"
         + System.getProperty("file.separator")
         + archivo.substring(0, archivo.length()/** - 1*/ );
