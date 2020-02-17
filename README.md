@@ -5,9 +5,19 @@
 Laboratorio #3 de la materia Arquitectura Empresariales 2020-1
 Reto 01
 
-# Descripción
+# Descripción Ret 1
 
 Laboratorio enfocado al uso de cliente servidor y despliegue web
+
+# Descripción Reto 2
+
+Lectura de bases de datos
+
+![](img/get.PNG)
+![](img/bd1.PNG)
+![](img/bd2.PNG)
+
+
 
 # Inicio
   # - Requisitos
