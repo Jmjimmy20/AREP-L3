@@ -29,14 +29,12 @@ public class Servidor {
     }
 
     public Servidor() throws IOException{
-
         
         while(true){
             Port = getPort();          
             IniciadorAtributosConexion(Port);
 
             try {
-                
                 socket = serverSocket.accept();
 
             } catch (IOException e) {
@@ -50,26 +48,19 @@ public class Servidor {
                 if(inputLine.startsWith("GET")){
 
                     archivo = inputLine.substring(inputLine.indexOf("/") + 1, inputLine.indexOf("HTTP"));
-
                 }
-
                 if (!bufferedReader.ready()){
-
                     break;
-
                 } 
-                
             }
 
             if(archivo.equals(" ") || archivo.equals("/")) {
                 archivo = "notfound.html";
-
             }
 
             if(!archivo.equals("/")){
 
                 CreacionArchivo();
-
             }
 
             printWriter.flush();
@@ -105,7 +96,6 @@ public class Servidor {
         bufferedOutputStream = null;
         outputStream = null;
     }
-
 
     /**
      * Metodo en el cual se establecen los valores de distintos atributos que necesitan del socket del cliente
