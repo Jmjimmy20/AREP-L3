@@ -1,4 +1,6 @@
 # AREP-Laboratorio #3
+[![Heroku](https://heroku-badge.herokuapp.com/?app=peaceful-sands-20735)](https://peaceful-sands-20735.herokuapp.com)
+[![CircleCI](https://circleci.com/gh/Jmjimmy20/AREP-L3/tree/master.svg?style=svg)](https://circleci.com/gh/Jmjimmy20/AREP-L3/tree/master)
 
 Laboratorio #3 de la materia Arquitectura Empresariales 2020-1
 Reto 01
